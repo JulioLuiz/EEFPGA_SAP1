@@ -1,0 +1,12 @@
+//programa
+@0 18 //LDA 8 (0000 1000) carrega em AR o conteúdo na posição @8
+29 //ADD 9  (0001 1001) adiciona ao AR o conteudo na posição @9
+70 //OUT    (0111 0000) coloca valor de AR na saída.
+@8	01
+02
+0A
+0B
+0C
+0D
+0E
+0F

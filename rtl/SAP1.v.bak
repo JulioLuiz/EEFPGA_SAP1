@@ -1,0 +1,7 @@
+/* module SAP1 (mr, clk, display);
+
+	input        clk, mr;
+	output [7:0] display
+	
+	assign output = 
+*/

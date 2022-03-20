@@ -1,0 +1,21 @@
+// Quartus Prime Verilog Template
+// Binary counter
+
+module PC
+(
+	input CLK, RST_N,
+	output reg [15:0] count
+);
+
+	// Reset if needed, or increment if counting is enabled
+	always @ (posedge clk or negedge reset)
+	begin
+	
+		if(RST_N == 0)
+			count <= 0;
+			
+		else if (CW[11] == 1)
+			count <= count + 1;
+	end
+
+endmodule

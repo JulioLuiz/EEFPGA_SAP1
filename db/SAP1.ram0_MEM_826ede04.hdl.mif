@@ -1,0 +1,30 @@
+-- begin_signature
+-- MEM(DATA_WIDTH
+-- 4
+-- ADDR_WIDTH
+-- 4)
+-- end_signature
+WIDTH=4;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	1000;
+	14 :	0111;
+	13 :	0110;
+	12 :	0101;
+	11 :	0100;
+	10 :	0011;
+	9 :	0010;
+	8 :	0001;
+	7 :	XXXX;
+	6 :	XXXX;
+	5 :	XXXX;
+	4 :	XXXX;
+	3 :	XXXX;
+	2 :	0000;
+	1 :	1001;
+	0 :	1000;
+END;

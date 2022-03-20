@@ -1,0 +1,6 @@
+`define CONST_V
+	
+	`define ADDR_W		4 //
+	`define DATA_W    4 //
+
+`endif	

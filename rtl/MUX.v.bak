@@ -1,0 +1,23 @@
+/*
+	MUX
+*/
+
+module MUX(
+
+	//Declaração de ports
+		input [11:0] CW,
+		input [7:0] IN_BUS,
+		output reg[7:0] OUT_BUS
+);
+	//Delcaração tipos de dados
+	
+	//Funcionamento do circuito
+		always @(*)
+		begin
+			if (cw[1] == 0)
+				OUT_BUS <= IN_BUS[0];
+			else if (CW[])
+				OUT <= AR-BR;
+		end
+		
+endmodule

@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display[7]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[0]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[1]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[2]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[3]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[4]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[5]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[6]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_bus[7]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[1]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[2]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[3]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[4]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[5]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[6]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[7]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[8]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[9]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[10]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_cw[11]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "mr",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

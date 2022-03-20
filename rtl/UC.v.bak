@@ -1,0 +1,46 @@
+//Unidade de controle
+
+module UC
+#(parameter filemicro1 = "micro1.txt", filemicro2 = "micro2.txt" )
+
+( 
+	input[7:0] 	CLK_N, MR,
+	input[3:0] 	INSTRUCTION,
+	OUTput[11:0] 	CONTROL_WORD
+
+);
+
+	reg [7:0] rom1[2**7];
+	reg [7:0] rom2[2**7];
+	reg [3:0] count;
+	
+	wire [7:0] addr
+	
+	initial 
+	begin
+	
+	$readmemh("micro1.txt", rom1)
+	$readmemh("micro2.txt", rom2)
+	
+	end
+	
+	
+	always @ (posedge CLK_N or negedge RST_N)
+	begin
+	
+		if( RST_N == 0 )
+			count <= 0;
+			
+		else if (count == 4)
+			count <= 0;
+		
+		else
+			count <= count + 1;
+	end
+	
+	assign addr = {INSTRUCTION[3:0], 1'b0, count[2:0]};
+	
+	assign CONTROL_WORD = {rom2[addr[3:0]], rom1[addr][7:0]};
+	
+	
+endmodule
